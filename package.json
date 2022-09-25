@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@material/slider": "^14.0.0",
+    "@mui/material": "^5.10.6",
+    "@mui/styled-engine-sc": "^5.10.6",
+    "@reach/auto-id": "^0.17.0",
+    "@reach/combobox": "^0.17.0",
+    "@reach/slider": "^0.17.0",
+    "auto-export-components": "^1.0.5",
+    "dotenv": "^16.0.2",
+    "styled-components": "^5.3.5"
+  }
+}
