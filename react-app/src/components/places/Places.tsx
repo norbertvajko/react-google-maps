@@ -10,8 +10,6 @@ import {
   SliderTrackHighlight
 } from "@reach/slider";
 import "@reach/slider/styles.css";
-import Slider from '@mui/material/Slider';
-import DiscreteSliderSteps from '../slider/Slider';
 import DiscreteSlider from '../slider/Slider';
 
 type PlacesProps = {
@@ -48,7 +46,7 @@ export default function Places( {setHome}: PlacesProps) {
             disabled={!ready}
             placeholder="Search location"
             />
-         { <ComboboxPopover> ??
+         { <ComboboxPopover> 
        
             <ComboboxList>
           

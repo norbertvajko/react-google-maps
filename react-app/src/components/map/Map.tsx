@@ -21,7 +21,7 @@ export default function Map() {
     const [home, setHome] = useState<LatLngLiteral>();
     const mapRef = useRef<GoogleMap>();
     const { isLoaded } = useLoadScript({
-        googleMapsApiKey: process.env.PUBLIC_GOOGLE_MAPS_API_KEY,
+        googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAP_API_KEY,
         libraries: ["places"]
       })
     const center = useMemo( () => ({ lat: 44, lng: -80}), []);

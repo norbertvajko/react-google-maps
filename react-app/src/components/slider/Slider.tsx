@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import Slider from '@mui/material/Slider';
 
 function valuetext(value: number) {
-  return `${value}m`;
+  return `${value}`;
 }
 
 export default function DiscreteSlider() {
