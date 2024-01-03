@@ -1,3 +1,3 @@
-﻿# maps-project
+﻿# google-maps-project
 
-React project that integrates Google Maps Api.
+React/Typescript project that integrates Google Maps Api.
